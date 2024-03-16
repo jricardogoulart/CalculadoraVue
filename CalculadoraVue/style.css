@@ -1,0 +1,110 @@
+@import url('https://fonts.cdnfonts.com/css/digital-7-mono');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: grid;
+    place-items: center;
+
+}
+
+body {
+    background: url("./math.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#marca {
+    font: bolder 1.0em "Noto Sans", sans-serif;
+    color: #ffffff;
+    padding-bottom: 10px;
+    line-height: 0.2em;
+    letter-spacing: 0.3em;
+}
+
+.calculadora {
+    max-width: 600px;
+    background-color: #444;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 15px 25px #64ebbe1f;
+    border: 12px solid rgb(29, 29, 29)
+}
+
+.linha {
+    display: flex;
+}
+
+
+
+.display {
+    display: flex;
+    padding: 5px;
+    justify-content: end;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 10px;
+    color: #222;
+    background-image: linear-gradient(180deg, rgb(37, 255, 164), rgb(7, 136, 97));
+    border-radius: 5px;
+
+}
+
+.display span {
+    text-shadow: 2px 2px 3px #077943;
+    font: normal 5em 'Digital-7 Mono', sans-serif;
+}
+
+button {
+    width: 700px;
+    height: 100px;
+    border: 2px solid #2b2a2a;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 3px;
+    transition: 200ms;
+    font: bolder 4.5em "Noto Sans", sans-serif;
+    box-shadow: 5px 4px 0px rgb(26, 26, 26);
+    transition: 800ms;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #555555;
+}
+
+button:active {
+    color: #fff;
+    background-color: #242424;
+    transition: 2ms;
+}
+
+.operador {
+    color: #fff;
+    background-color: #0c97ce;
+}
+
+.operador:hover {
+    background-color: #013d55;
+}
+
+.operador:active {
+    background-color: #002635;
+}
+
+
+.igual {
+    color: #1b1b1b;
+    background-color: #39fa59;
+}
+
+.igual:hover {
+    background-color: #005e17;
+    color: #fff;
+}
+
+.igual:active {
+    background-color: #001d07;
+}
